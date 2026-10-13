@@ -1,0 +1,4 @@
+# Dimensional modeling
+
+
+**Dimensional modeling** is a database design approach built specifically for analytics, dashboards, and reporting rather than daily app operations. It organizes data into two clean concepts: **Facts** (the numbers you measure, like revenue or units sold) and **Dimensions** (the context you filter or group by, like customer, date, or location). Instead of burying data across dozens of complex normalized tables, it arranges them into an intuitive **Star Schema** with facts in the center and dimensions surrounding them. The result is intuitive data structures, simpler SQL queries, and dramatically faster reporting performance.
